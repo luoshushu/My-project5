@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>简书-内容</title>
+    <script src="./font/iconfont.js"></script>
+    <style>
+        body{
+            background: rgba(43,43,43,0.05);
+        }
+        .content{
+            background: #fff;
+            padding: 0;
+            margin: 0 auto;
+            height: 240px;
+            width: 520px;
+            border-bottom: 2px solid #f0f0f0;
+            border-top: 2px solid #f0f0f0;
+            font-family: -apple-system,SF UI Text,Arial,PingFang SC,Hiragino Sans GB,Microsoft YaHei,WenQuanYi Micro Hei,sans-serif;
+            position: relative;
+        }
+        a{
+           text-decoration: none;
+        }
+        .print>img{
+            width: 150px;
+            height: 150px;
+            position: absolute;
+            top:50%;
+            left: 50%;
+            margin-top: -75px;
+            margin-left: 75px;
+            -webkit-border-radius: 10px;
+            -moz-border-radius: 10px;
+            border-radius: 10px;
+        }
+        .left{
+            margin-top: 15px;
+            margin-bottom: 10px;
+            margin-right: 200px;
+        }
+        .left-top{
+            height: 40px;
+            font-size: 0;
+        }
+        .left-top>img{
+            float: left;
+            display: block;
+            width: 40px;
+            height: 40px;
+            line-height: 40px;
+            border-radius: 40px;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+            margin: 0 5px 0 10px;
+        }
+        .left .name,.span{
+            text-decoration: none;
+            margin:0 5px;
+            font-size: 16px;
+            height: 40px;
+            line-height: 40px;
+            color: black;
+        }
+        .left-top .span{
+            color: #ccc;
+            font-size: 14px;
+
+        }
+        .title{
+            margin: 10px 0  -3px 10px;
+            display: inherit;
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 1;
+            color: black;
+        }
+        .title:hover{
+            text-decoration: underline;
+        }
+        .matter{
+            display: block;
+            font-size: 14px;
+            line-height: 28px;
+            text-align: end;
+            overflow : hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+        }
+        .left-bottom{
+            padding: 10px;
+        }
+       .left-bottom .tally{
+           padding: 2px 5px;
+           color:#EA705B;
+           border: 1px solid #EA705B;
+           border-radius: 3px;
+
+       }
+        .left-bottom .tally:hover{
+            background:rgba(234,112,91,0.1);
+            color:#EA705B;
+        }
+        .left-bottom a,span{
+            margin-right: 10px;
+            color: #B4B4B4;
+            font-size: 14px;
+        }
+        .left-bottom a:hover{
+            color: #999;
+        }
+
+        .icon {
+            width: 1.2em;
+            height: 1em;
+            vertical-align: -0.15em;
+            fill: currentColor;
+            overflow: hidden;
+        }
+    </style>
+
+</head>
+<body>
+<div class="content">
+    <div class="print"><img src="./image/image.jpg" alt=""></div>
+    <div class="left">
+        <div class="left-top">
+            <img src="./image/touxiang.jpg" alt="头像">
+            <a class="name" href="#">苏宋霖</a>
+            <span class="span">昨天 22:30</span>
+        </div>
+        <a  class="title" href="#">在北上广，为什么你总觉得房租高？</a>
+        <p class="matter">最近，瀚哥和自己的一个做财经媒体的师妹聊天，聊着聊着无意中就聊到了房租上面，师妹在广州打拼，她和瀚哥说：师兄，你刚毕业的时候是自己租的房子吗?</p>
+
+        <div class="left-bottom">
+            <a class="tally" href="#">社会热点</a>
+
+            <a href="#"> <svg class="icon" aria-hidden="true">
+                <use xlink:href="#icon-yan"></use>
+            </svg>2333</a>
+
+            <a href="#"> <svg class="icon" aria-hidden="true">
+                <use xlink:href="#icon-xiaoxi"></use>
+            </svg>89</a>
+            <span><svg class="icon" aria-hidden="true">
+                        <use xlink:href="#icon-xin"></use>
+                 </svg>331
+            </span>
+            <span><svg class="icon" aria-hidden="true">
+                        <use xlink:href="#icon-qian"></use>
+                 </svg>3
+            </span>
+
+
+        </div>
+    </div>
+
+</div>
+
+
+</body>
+</html>
